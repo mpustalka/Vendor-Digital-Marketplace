@@ -1,0 +1,548 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documentation</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary" id="banner">
+	<div class="container-fluid">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="dashboard.php"><span> <img src="images/siteLogo.png" class="img-fluid" alt="Billing System"></span></a>
+	
+	  <!-- Toggler/collapsibe Button -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	    <!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#/" id="navbardrop" data-toggle="dropdown">
+				<i class="fa fa-user"></i> <b>Getting Started</b>
+			  </a>
+			  <div class="dropdown-menu ">
+				<a class="dropdown-item" href="#info"><i class="fa fa-hand-point-right"></i> Info</a>
+				<a class="dropdown-item" href="#overview"><i class="fa fa-hand-point-right"></i> Overview</a>
+				<a class="dropdown-item" href="#requirement"><i class="fa fa-hand-point-right"></i> Requirement</a>
+				<a class="dropdown-item" href="#features"><i class="fa fa-hand-point-right"></i> Features</a>
+				
+			  </div>
+			</li>
+			<li class="nav-item ">
+			  <a class="nav-link " href="#database" >
+				<i class="fa fa-user"></i> <b> Create Database & Import</b>
+			  </a>
+			</li>
+			<li class="nav-item ">
+			  <a class="nav-link " href="#configuration" >
+				<i class="fa fa-user"></i> <b> Configuration</b>
+			  </a>
+			</li>
+			
+			<li class="nav-item ">
+			  <a class="nav-link " href="#firsttimeadminlogin" >
+				<i class="fa fa-user"></i> <b> 1st Time Admin Login</b>
+			  </a>
+			</li>
+			
+			
+		</ul>
+		</div>
+	 </div>
+</nav>
+<div class="container mar-top">
+		
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<!-- Info -->
+			 	<div class="row">
+					<div class="col-md-12 col-lg-12 border border-default" id="info">
+						<h2>Info</h2>
+						<hr>
+						<h3>DigiSell - Single Vendor Digital Marketplace</h3>
+						<br>
+						<p class="myFont"><b>Author :</b> CodeDaddy</p>
+						<p class="myFont"><b>Create Date :</b> November 25, 2020</p>
+						<p class="myFont"><b>Support :</b> <a href="mailto:yupokteam@gmail.com">yupokteam@gmail.com</a></p>
+					</div>
+					<!--Overview-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="overview">
+						<h2>Overview</h2>
+						<hr>
+						<p class="myFont">Looking for Your Digital Download Marketplace then You are viewing Right Item at Right Place.</p>
+						
+						<p class="myFont">Only Simple 8 Line Setup & Script is yours, If 9th Line then We'll setup all thing on your Behalf </p>
+						<p class="myFont">Just Upload the Digital Item in Easy way and Show your creativity to World and Earn Passive Income via Stripe.</p>
+						<p class="myFont"><b>Security : </b>It is protected against SQL injection, XSS and other attack and your website will be safe.</p>
+					</div>
+					<!--Requirements-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="requirement">
+						<h2>Requirements</h2>
+						<hr>
+						<h5>Before starting to install, make sure you fulfill the following requirements:</h5>
+						<ul class="myFont">
+							<li>For Local Server installation, you need to have XAMPP, WAMP or any apache server with PHP and MySQL (Sending Email will not work on Localhost)</li>
+							<li>You can use this script on any live LINUX server.</li>
+							<li>Required PHP version in server >= 5.4.</li>
+							<li>Required PHP Mail Function enabled in server.</li>
+							<li>Stripe Merchant Account</li>
+						</ul>
+					</div>
+					<!--Features-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="features">
+						<h2>Admin Features</h2>
+						<hr>
+						<ul class="myFont">
+						   <li><b>Dashboard</b>
+						   	<ul class="myFont">
+								<li>Today Analysis (Sale, Earning & Top Item)</li>
+								<li>This Month Analysis (Sale, Earning & Top Item)</li>
+								<li>Total Analysis (Total Sale, Total Earning & Top Item)</li>
+								<li>Item Analysis (Total Items, Active Items & Deactive Items)</li>
+								<li>User Analysis (Total Users, Active Users & Blocked Users)</li>
+							</ul>
+						   </li>
+						   <li><b>Settings</b>
+						   	<ul class="myFont">
+								<li>Admin Email (Where Admin Receives Every Email)</li>
+								<li>Yes / No Option (Send Email to User whenever Admin Reply on their Comment)</li>
+								<li>Yes / No Option (Receive Email to Admin whenever New Comment on Any Item)</li>
+								<li>Yes / No Option (Receive Email to Admin whenever New Sale)</li>
+								<li>Yes / No Option (Send Email to Purchased Item by User whenever Admin Update Main File)</li>
+								<li>Yes / No Option (Receive Email to Admin whenever New Rating by User)</li>
+								<li>No. of Chances (How many Chance Admin give to User to Verify their Email)</li>
+								<li>Unblock Message (Means When Admin Unblock any User then This is the Email Body)</li>
+							</ul>
+						   </li>
+						   <li><b>Payments History</b>
+						   	<ul class="myFont">
+								<li>Payment History like Date, User ID, Email, Name, Item Name, Item License, Amount, Transaction ID & Search.</li>
+							</ul>
+						   </li>
+						   <li><b>Users</b>
+						   	<ul class="myFont">
+								<li>Search User</li>
+								<li>View User</li>
+								<li>Block User</li>
+								<li>View Total Purchase of Every User</li>
+							</ul>
+						   </li>
+						   <li><b>Blocked Users</b>
+						   	<ul class="myFont">
+								<li>Search</li>
+								<li>View </li>
+								<li>UnBlock User & Send Automatically Email</li>
+							</ul>
+						   </li>
+						   <li><b>Category (Like Parent)</b>
+						   	<ul class="myFont">
+								<li>Add</li>
+								<li>Edit </li>
+								<li>View</li>
+								<li>Search</li>
+								<li>Activate</li>
+								<li>Deactivate (Note : If Category Deactivated then All the Items, Subcategory & Child Category belongs to this Category will also be Deactivated & Hide from Users. )</li>
+							</ul>
+						   </li>
+						    <li><b>Sub Category (Like Child)</b>
+						   	<ul class="myFont">
+								<li>Add</li>
+								<li>Edit </li>
+								<li>View</li>
+								<li>Search</li>
+								<li>Activate</li>
+								<li>Deactivate (Note : If Sub Category Deactivated then All the Items & Child Category belongs to this Sub Category will also be Deactivated & Hide from Users. )</li>
+							</ul>
+						   </li>
+						   <li><b>Child Category (Like Grand Child)</b>
+						   	<ul class="myFont">
+								<li>Add</li>
+								<li>Edit </li>
+								<li>View</li>
+								<li>Search</li>
+								<li>Activate</li>
+								<li>Deactivate (Note : If Child Category Deactivated then All the Items to this Child Category will also be Deactivated & Hide from Users. )</li>
+							</ul>
+						   </li>
+						   <li><b>Upload Item</b>
+						   	<ul class="myFont">
+								<li>Mandatory Fields Step - 1 (Item Name, Regular & Extended License Price, Main Category, Sub Category, Item Description & Item Tags )</li>
+								<li>Optional Fields Step - 1 (Child Category, Item Demo Link & Youtube Video Demo Link)
+								<li>Mandatory Fields Step - 2 (Thumbnail Image, Preview Image & Main ZIP File)</li>
+								<li>Optional Fields Step - 2 (Screenshot ZIP File)</li>
+								<li>Bonus : You can save Your Item also in Draft</li>
+							</ul>
+						   </li>
+						   <li><b>Edit Item</b>
+						   	<ul class="myFont">
+								<li>Mandatory Fields Step - 1 (Item Name, Regular & Extended License Price, Main Category, Sub Category, Item Description & Item Tags )</li>
+								<li>Optional Fields Step - 1 (Child Category, Item Demo Link & Youtube Video Demo Link)
+								<li>Mandatory Fields Step - 2 (Nothing)</li>
+								<li>Optional Fields Step - 2 (Thumbnail Image, Preview Image, Main ZIP File & Screenshot ZIP File)</li>
+								<li>Bonus : You can save Your Item also in Draft</li>
+							</ul>
+						   </li>
+						   <li><b>Items</b>
+						   	<ul class="myFont">
+								<li>Add Item</li>
+								<li>Search Item</li>
+								<li>View Item Category, Sub Category & Child Category Name</li>
+								<li>View Item Name, Tags, Sales, Rating, Rated By, Created & Updated Date & Status</li>
+								<li>Make Featured / Unfeatured Item</li>
+								<li>Was Featured (Means Once Item is Featured in Lifetime A Star Button added for always along with Buy Item Button i.e. This Item was Featured )</li>
+								<li>Deactivate Item (Item was saved into Draft & Hide from Users)</li>
+								<li>Edit Item</li>
+								<li>Download (Thumbnail & Preview Image, Main File & Screenshot File)</li>
+							</ul>
+						   </li>
+						    <li><b>Draft Items</b>
+						   	<ul class="myFont">
+								<li>It will show Only Deactivated Items</li>
+								<li>Add Item</li>
+								<li>Search Draft Item</li>
+								<li>View Item Category, Sub Category & Child Category Name</li>
+								<li>View Item Name, Tags, Sales, Rating, Rated By, Created & Updated Date & Status</li>
+								<li>Edit Item</li>
+								<li>Download (Thumbnail & Preview Image, Main File & Screenshot File)</li>
+							</ul>
+						   </li>
+						   <li><b>Top Selling Items</b>
+						   	<ul class="myFont">
+								<li>It will show Only Items which have at least 1 Sale</li>
+								<li>Add Item</li>
+								<li>Search Item</li>
+								<li>View Item Category, Sub Category & Child Category Name</li>
+								<li>View Item Name, Tags, Sales, Rating, Rated By, Created & Updated Date & Status</li>
+								<li>Edit Item</li>
+							</ul>
+						   </li>
+						    <li><b>Featured Items</b>
+						   	<ul class="myFont">
+								<li>It will show Only Featured Items.</li>
+								<li>Add Item</li>
+								<li>Search Item</li>
+								<li>View Item Category, Sub Category & Child Category Name</li>
+								<li>View Item Name, Tags, Sales, Rating, Rated By, Created & Updated Date & Status</li>
+								<li>Make Unfeatured Item</li>
+								<li>Was Featured (Means Once Item is Featured in Lifetime A Star Button added for always along with Buy Item Button i.e. This Item was Featured )</li>
+								<li>Deactivate Item (Item was saved into Draft & Hide from Users)</li>
+								<li>Edit Item</li>
+								<li>Download (Thumbnail & Preview Image, Main File & Screenshot File)</li>
+							</ul>
+						   </li>
+						   <li><b>Comments</b>
+						   	<ul class="myFont">
+								<li>View User Id, Name & Comment</li>
+								<li>View Item Name & Item</li>
+								<li>Search</li>
+								<li>Unapprove Comment (Means Comment will hide from Item)</li>
+								<li>Edit Comment</li>
+								<li>Add Admin Reply on the Comment (Email will automatically send to User if Send Email function Enabled in settings.)</li>
+								<li>Note : If Admin replied then Comment will auto approve</li>
+						    </ul>
+						   </li>
+						    <li><b>Ratings</b>
+						   	<ul class="myFont">
+								<li>View User Id, Name, User Rating & Rating Comment</li>
+								<li>View Item Thumbnail, Name, Item, Total Rating & Total Rated By</li>
+								<li>Search</li>
+								<li>Edit Rating & Rating Comment</li>
+								<li>Revoke Right</li>
+								<li>Revoke Right means User cannot Edit Rating on Particular Item which They gave Rating Earlier.(They can only give Rating on any Other Purchased Item)</li>
+								<li>DeRevoke Right (Means User can Edit Rating of Particular Purchase Item)</li>
+								<li>Note : You can change anytime Revoke / DeRevoke Right of User on Particular Item</li>
+						    </ul>
+						   </li>
+						    <li><b>Pages</b>
+						   	<ul class="myFont">
+								<li>Create Unlimited Pages with Lots of Styles (Like Privacy Policy, About Us, etc.)</li>
+								<li>Mandatory Fields(Page Name, Page Slug & Page Content)</li>
+								<li>Page Slug : It must be Unique & Small Letters with no special Characters</li>
+								
+						    </ul>
+						   </li>
+						   <li><b>Manage Pages</b>
+						   	<ul class="myFont">
+								<li>Search</li>
+								<li>Edit Page</li>
+								<li>View Page</li>
+								<li>Activate / Deactivate Page anytime.</li>
+								<li>Deactivated Page will automatically hide from Users.</li>
+								<li>If All Page was deactivated then Pages Option will automatically Hide from User Panel.</li>
+						    </ul>
+						   </li>
+						   <li><b>Others</b>
+						   	<ul class="myFont">
+								<li>Change Email</li>
+								<li>Change Password</li>
+								<li>Forgot Password (Recover via OTP)</li>
+								<li>Login</li>
+								<li>Logout</li>
+						    </ul>
+						   </li>
+						</ul>
+						<h2>User Features</h2>
+						<hr>
+						<ul class="myFont">
+						   <li><b>Home Page</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>New Items (4 Latest Active Items will show)</li>
+								<li>Browse All New Item Link</li>
+								<li>Featured Items (4 Active Featured Items will show)</li>
+								<li>Browse All Featured Item Link</li>
+								<li>Top Selling Items (4 Items will show which have atleast 1 Sale)</li>
+								<li>Note: If you have No Sale of any Item then Top Selling Items automatically hide from Users Homepage</li>
+						    </ul>
+						   </li>
+						   <li><b>New Items</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>8 Latest Active Items will show</li>
+								<li>Load More Button if you have more than 8 Items</li>
+								<li>Pressing Load More Button will show again 8 Items and Load More Button automatically Hide if Item ends.</li>
+								<li>Filter By Category on Top Right Corner (No Page Reload, Ajax Loading with awesome Loader)</li>
+						    </ul>
+						   </li>
+						   <li><b>Featured Items</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>8 Featured Items will show</li>
+								<li>Load More Button if you have more than 8 Items</li>
+								<li>Pressing Load More Button will show again 8 Items and Load More Button automatically Hide if Item ends.</li>
+								<li>Filter By Category on Top Right Corner (No Page Reload, Ajax Loading with awesome Loader)</li>
+						    </ul>
+						   </li>
+						    <li><b>Category</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>8 Category Items will show</li>
+								<li>Load More Button if you have more than 8 Items</li>
+								<li>Pressing Load More Button will show again 8 Items and Load More Button automatically Hide if Item ends.</li>
+								<li>Filter By Sub Category on Top Right Corner (No Page Reload, Ajax Loading with awesome Loader)</li>
+						    </ul>
+						   </li>
+						   <li><b>Sub Category</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>8 Sub Category Items will show</li>
+								<li>Load More Button if you have more than 8 Items</li>
+								<li>Pressing Load More Button will show again 8 Items and Load More Button automatically Hide if Item ends.</li>
+								<li>Filter By Child Category on Top Right Corner (No Page Reload, Ajax Loading with awesome Loader)</li>
+						    </ul>
+						   </li>
+						   <li><b>Item Page</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>Complete SEO of an Item</li>
+								<li>Item Name with Preview Image will show.</li>
+								<li>3 Tabs will show(Ajax Tabs , No Page Reload i.e. Description, Comments & Review)</li>
+								<li>Description (Means Item Description like Overview, Demo Admin Link, How to use Items, etc. which is filled by Admin in Admin Panel.)</li>
+								<li>Comments (Comment of Users and Reply of Admin, Note : If User Logged in then Submit Comment Form will also show)</li>
+								<li>Review (Ratings & Rating Comment of Users.)</li>
+								<li>View Screenshot with awesome jQuery Plugin</li>
+								<li>Live Preview of Item inside in IFrame</li>
+								<li>View Youtube Video if Available (No Page Reload)</li>
+								<li>Change Amount by Selecting Regular License & Extended License</li>
+								<li>Item was Featured Tag with Buy Now Button (If Item is/was featured in lifetime)</li>
+								<li>Buy Now Button (Note : Non Logged in User will redirect to Login Page)</li>
+								<li>Awesome Social Share Button for Item (i.e. Whatsapp, Facebook & Twitter Share)</li>
+								<li>Facebook & Twitter share automatically Fetch Item Preview Image</li>
+								<li>Buy Now for Logged in User Redirect to checkout Page </li>
+								<li>Successfull Transaction Message will show after Purchase</li>
+								<li>After Purchase Item Main File will be available in Downloads for User</li>
+								<li>Automatically Send Email to Admin whenever New Sale if Admin enable Send Email Setting in Admin Panel</li>
+						    </ul>
+						   </li>
+						   <li><b>Pages</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>Show only Active Pages</li>
+								<li>Awesome Page view with Link Support & Line Colors which is saved by Admin.</li>
+								<li>Cannot view Page if Page was deactivated.</li>
+						    </ul>
+						   </li>
+						   <li><b>Item Search</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>Show only Active Item in Search with Load More Button</li>
+								<li>Item will show via Title and Item Tags matching.</li>
+						    </ul>
+						   </li>
+						   <li><b>Downloads</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>Search Purchased Items</li>
+								<li>Show only Purchased Items</li>
+								<li>If Item is Active Download File will be available.</li>
+								<li>Show Item Thumbnail, Item Name, Item Total Rating, User Rating, User Rating Comment</li>
+								<li>Give Rating</li>
+								<li>Edit Rating (If Admin don't Revoke Right, If Admin Revoke their Right then User cannot Edit Rating of This Item, They can only Edit Rating of Other Purchased Item )</li>
+						    </ul>
+						   </li>
+						   <li><b>Purchases</b>
+						   	<ul class="myFont">
+								<li>User Friendly URL</li>
+								<li>Search Purchased Items</li>
+								<li>Show only Purchased Items</li>
+								<li>View Item Thumbnail, Item Name, Transaction Id, Date & Amount of Purchased Items</li>
+						    </ul>
+						   </li>
+						   <li><b>Login</b>
+						   	<ul class="myFont">
+								<li>Ajax Login</li>
+								<li>Forgot Password(Recover via OTP with jQuery & Ajax, No Page Reload)</li>
+								<li>Ajax Change Email after Login</li>
+								<li>Ajax Change Password after Login</li>
+						    </ul>
+						   </li>
+						   <li><b>SignUp</b>
+						   	<ul class="myFont">
+								<li>Ajax SignUp</li>
+								<li>OTP Verification</li>
+								<li>No. of Chances to verify OTP which Set via Admin in Admin Panel.</li>
+								<li>Resend OTP</li>
+								<li>Cannot Do Anything Until User Verify OTP</li>
+						    </ul>
+						   </li>
+						</ul>
+					</div>
+					
+					<!--Create Database-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="database">
+						<h2>Create Database, Username, Password & Import SQL file.</h2>
+						<hr>
+						<ul class="myFont">
+							<li>Step 1: Login to your website CPanel with your Username & Password.</li>
+							<br>
+							<li><img src="images/cpanel_login.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 2: On Homepage, Scroll Down to <b>Databases</b> & Click on <b>MYSQL Databases</b> option.</li>
+							<br>
+							<li><img src="images/cpanel.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 3: Create New Database, Just write <b>billing_system</b> & press Create Database Button.</li>
+							<br>
+							<li><img src="images/cpanel2.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 4: A message appears, Added the database <b>"yupok_billing_system"</b> It means <b>Your Database Name : yupok_billing_system</b> , Note : yupok_ prefix is demo, your website automatic added Prefix to your database name.So copy that name that is your Original Database Name.</li>
+							<br>
+							<li><img src="images/cpanel3.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 5: Press Go Back and return to Database Page again.</li>
+							<br>
+							<li>Step 6: Scroll Down the Page, MYSQL Users Add New User, Just fill the details like you want to use Username & Password & keep details in the safe place & Press Create User button.</li>
+							<br>
+							<li><img src="images/cpanel4.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 7: A message appears, You have successfully created a MySQL user named "yupok_demo_user". It means <b>Your Database USERName : yupok_demo_user</b> , Note : yupok_ prefix is demo, your website automatic added Prefix to your Username.So copy that name that is your Original Database Username.</li>
+							<br>
+							<li>Step 8: Press Go Back and return to Database Page again.</li>
+							<br>
+							<li>Step 9: Scroll Down the Page again to <b>Add User to Database</b> . Select your Last Created Username & Last Created Database for this billing system & Press Add Button. </li>
+							<br>
+							<li><img src="images/cpanel6.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 10: You will redirect to Another Page. Click on <b>ALL PRIVILEGES</b> option, Scroll down & Press Make Changes Button. </li>
+							<br>
+							<li><img src="images/cpanel7.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li><img src="images/cpanel8.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 11: A Success message appears on top right corner. After that scroll down to the page and press Go Back</li>
+							<br>
+							<li><img src="images/cpanel9.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 12: Example 
+							<br>
+							<b>YOUR_HOST_NAME : localhost</b> &ensp;Mostly its localhost but if not then contact your website service provide.
+							<br>
+							<b>YOUR_DATABASE_NAME : yupok_billing_system</b> &ensp;This is demo which we explained above. Your real database name is different.
+							<br>
+							<b>YOUR_DATABASE_USERNAME : yupok_demo_user</b> &ensp;This is demo which we explained above. Your real database username is different.
+							<br>
+							<b>YOUR_DATABASE_Password : password</b> &ensp;That is explained in Step 6.
+							<br>
+							<li>Step 13: <b>Import sql file to Database.</b> Go to CPanel homepage scroll down to Database , Click on phpMyAdmin, your database will be open.</li>
+							<br>
+							<li>Step 14: <b>On the left sidebar your Newly Database Option will be shown Just click on that. </b></li>
+							<br>
+							<li>Step 15: <b>After click see on right side there is Import Option click on that and browse & select sql file from your downloaded database folder and press Go Button on the bottom.</b></li>
+							<br>
+							<li><img src="images/cpanel10.png" class="w-100 img-fluid"  ></li>
+							<br>
+							<li>Step 16: <b>Your database will be imported and your website is ready to Use.</b></li>
+							
+							
+							
+						</ul>
+					</div>
+					<!--Configuration-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="configuration">
+						<h2>Configuration</h2>
+						<hr>
+						<h5>Do Carefully Otherwise Script will not work</h5>
+						<hr>
+						<ul class="myFont">
+							<li>Unzip the Downloaded File, open upload Folder and go to <b>_adminarea_</b> folder</li>
+							<br>
+							<li><img src="images/unzip.png" class="w-100 img-responsive"  ></li>
+							<br>
+							<li>Now Go to db folder</li>
+							<br>
+							<li><img src="images/dbfolder.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li>Open config.php file in any Text Editor like Notepad++, Dreamweaver , etc.</li>
+							<br>
+							<li><img src="images/configfile.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li>Save Details according to your database. Read below section, How to create Database, Username, Password & Import SQL file.</li>
+							<br>
+							<li><img src="images/details.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li>How to get Stripe Secret & Publishable Key. - Login to your Stripe Account and Go to Developers->API Keys <a href="https://dashboard.stripe.com/apikeys" target="_blank">Stripe API Keys</a>
+							<br>
+							<li><img src="images/stripe.png" class="w-100 img-responsive" ></li>
+							<br>
+							<li>Upload All folder and import database file and its Done.</li>
+						</ul>
+					</div>
+					<!--First Time Admin Login-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv" id="firsttimeadminlogin">
+						<h2>First Time Admin Login</h2>
+						<hr>
+						<ul class="myFont">
+							<li>When you have configured correctly Database & Import SQL file then upload time.</li>
+							<li>Go to downloaded file -> Go to upload folder -> Copy all files & folder (Note : In _adminarea_ folder, go to db folder and open config.php file and replace details with your server detail which we explained above.)</li>
+							<li>Create Folder on your server where you want to Upload this script. Upload all copied files.</li>
+							<li>Let we help you in Detail with example.</li>
+							<li>Assume you make a folder on your server <b>digital</b> and upload all copied files with correct database configuration.</li>
+							<li>URL for Admin : <b> www.yourwebsite.com/digital/_adminarea_/ </b></li>
+							<li>Assume you don't make any folder and upload it into root directory i.e. www or public html folder on your server and upload all copied files with correct database configuration.</li>
+							<li>URL for Admin : <b> www.yourwebsite.com/_adminarea_/ </b></li>
+							<li>Default <b>Email : admin@admin.com  & Password : 123456</b></li>
+							<li>Click on User Icon on Top Right Corner => Click on Email => Update Your Login Email.</li>
+							<li>Click on User Icon on Top Right Corner => Click on Password => Old Password = <b>123456</b> => Set New Password & Keep in Safe Place</li>
+						</ul>
+					</div>
+					
+					<!--copyright footer-->
+					<div class="col-md-12 col-lg-12 border border-default myDiv">
+						<h4>Copyright &#xA9; Codedaddy (yupok)</h4>
+						<hr>
+						<h5 class="myFont">You are not allowed to use this documentation template for your personal or commercial or any other purposes.</h5>
+					</div>
+				</div>
+				<!--End-->
+			</div>
+		</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
